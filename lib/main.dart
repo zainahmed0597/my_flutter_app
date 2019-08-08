@@ -77,7 +77,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
             ListTile(
               title: Text('Home'),
-              trailing: Icon(Icons.arrow_forward_ios),
+              trailing: Icon(Icons.home),
               onTap: () {
                 // Update the state of the app.
                 // ...
@@ -85,7 +85,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             ListTile(
               title: Text('My Books'),
-              trailing: Icon(Icons.arrow_forward_ios),
+              trailing: Icon(Icons.book),
 
               onTap: () {
                 // Update the state of the app.
@@ -94,7 +94,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             ListTile(
               title: Text('WishList'),
-              trailing: Icon(Icons.arrow_forward_ios),
+              trailing: Icon(Icons.list),
               onTap: () {
                 // Update the state of the app.
                 // ...
@@ -102,7 +102,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             ListTile(
               title: Text('Search'),
-              trailing: Icon(Icons.arrow_forward_ios),
+              trailing: Icon(Icons.search),
               onTap: () {
                 // Update the state of the app.
                 // ...
@@ -110,7 +110,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             ListTile(
               title: Text('Contuct us'),
-              trailing: Icon(Icons.arrow_forward_ios),
+              trailing: Icon(Icons.contact_mail),
               onTap: () {
                 // Update the state of the app.
                 // ...
@@ -118,7 +118,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             ListTile(
               title: Text('Settings'),
-              trailing: Icon(Icons.arrow_forward_ios),
+              trailing: Icon(Icons.settings),
               onTap: () {
                 // Update the state of the app.
                 // ...
@@ -126,7 +126,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             ListTile(
               title: Text('Register Account'),
-              trailing: Icon(Icons.arrow_forward_ios),
+              trailing: Icon(Icons.account_circle),
               onTap: () {
                 // Update the state of the app.
                 // ...
