@@ -70,9 +70,9 @@ class _MyHomePageState extends State<MyHomePage> {
           padding: EdgeInsets.zero,
           children: <Widget>[
       DrawerHeader(
-        child: Text('Drawer Header'),
+        child: Text('Drawer Header',style:TextStyle(color: Colors.white)),
         decoration: BoxDecoration(
-          color: Colors.blue,
+          color: Colors.black,
         ),
       ),
             ListTile(
