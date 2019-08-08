@@ -9,9 +9,9 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.red,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(title: 'Geeks Republic'),
     );
   }
 }
@@ -39,6 +39,16 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
+
+        actions: <Widget>[
+          IconButton(
+            icon: Icon(Icons.search),
+            onPressed: () {
+            },
+          )
+        ],
+
+
       ),
       body: Center(
         child: Column(
@@ -59,14 +69,14 @@ class _MyHomePageState extends State<MyHomePage> {
           // Important: Remove any padding from the ListView.
           padding: EdgeInsets.zero,
           children: <Widget>[
-//      DrawerHeader(
-//        child: Text('Drawer Header'),
-//        decoration: BoxDecoration(
-//          color: Colors.blue,
-//        ),
-//      ),
+      DrawerHeader(
+        child: Text('Drawer Header'),
+        decoration: BoxDecoration(
+          color: Colors.blue,
+        ),
+      ),
             ListTile(
-              title: Text('Item 1'),
+              title: Text('Home'),
               trailing: Icon(Icons.arrow_forward_ios),
               onTap: () {
                 // Update the state of the app.
@@ -74,14 +84,16 @@ class _MyHomePageState extends State<MyHomePage> {
               },
             ),
             ListTile(
-              title: Text('Item 2'),
+              title: Text('My Books'),
+              trailing: Icon(Icons.arrow_forward_ios),
+
               onTap: () {
                 // Update the state of the app.
                 // ...
               },
             ),
             ListTile(
-              title: Text('Item 3'),
+              title: Text('WishList'),
               trailing: Icon(Icons.arrow_forward_ios),
               onTap: () {
                 // Update the state of the app.
@@ -89,7 +101,7 @@ class _MyHomePageState extends State<MyHomePage> {
               },
             ),
             ListTile(
-              title: Text('Item 4'),
+              title: Text('Search'),
               trailing: Icon(Icons.arrow_forward_ios),
               onTap: () {
                 // Update the state of the app.
@@ -97,7 +109,23 @@ class _MyHomePageState extends State<MyHomePage> {
               },
             ),
             ListTile(
-              title: Text('Item 5'),
+              title: Text('Contuct us'),
+              trailing: Icon(Icons.arrow_forward_ios),
+              onTap: () {
+                // Update the state of the app.
+                // ...
+              },
+            ),
+            ListTile(
+              title: Text('Settings'),
+              trailing: Icon(Icons.arrow_forward_ios),
+              onTap: () {
+                // Update the state of the app.
+                // ...
+              },
+            ),
+            ListTile(
+              title: Text('Register Account'),
               trailing: Icon(Icons.arrow_forward_ios),
               onTap: () {
                 // Update the state of the app.
